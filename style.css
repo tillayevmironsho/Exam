@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Inter';
+    border: 0;
+    background: white
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #1E1E1E;
+    padding: 30px;
+}
+
+.header .listone {
+    display: flex;
+    column-gap: 20px;
+    margin-left: 399px;
+}
+
+.header .listone .book {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header .listone .listItem {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.listItem .linkone {
+    cursor: pointer;
+    transition: 1s;
+    color: black;
+}
+
+.listItem .linktwo {
+    cursor: pointer;
+    transition: 1s;
+    color: rgba(30, 30, 30, 0.4);
+    ;
+}
+
+
+.header .listtwo {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    display: flex;
+    margin-left: 154px;
+}
+
+
+
+.listtwo .buttonone {
+    background: #ffeeee;
+}
+
+.listtwo .buttontwo {
+    margin: -10px 25px;
+    background: rgba(30, 30, 30, 0.05);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.listtwo .icon {
+    padding: 0 12px;
+}
+
+
+.sectionone {
+    text-align: center;
+    margin-top: 132px;
+}
+
+.sectionone .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.sectionone .searchstart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+
+.searchstart .search {
+    margin: 0 130px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.searchstart .minebook {
+    background-color: white;
+    padding: 11px;
+    box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+}
+
+.searchbook .text {
+    margin: 20px;
+}
+
+.searchbook .input {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 19px 371px 19px 23px;
+}
+
+.Div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minebook .minebok {
+    background-color: white;
+    padding: 11px;
+    box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    margin: 0 140px 0 140px;
+}
+
+.sectionone .downald {
+    justify-content: center;
+}
+
+.downald .button {
+    background: #2991F1;
+    border-radius: 10px;
+    padding: 13px 12px 13px 20px;
+    color: #FFFFFF;
+}
+
+.downald .buttonimg {
+    background-color: #2991F1;
+    padding-right: 13px;
+    padding-left: 12px;
+}
+
+.infosite {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    background: #F6F6F6;
+}
+
+.infosite .list .icon {
+    background: #F6F6F6;
+    width: 100%;
+    border-radius: 50px;
+    background-color: white;
+    padding: 19px 19px 19px 23px;
+    width: 65px;
+    height: 65px;
+}
+
+.infosite .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: #F6F6F6;
+
+}
+
+.infosite .reginfo {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #1E1E1E;
+    margin: 0 264px 0 30px;
+    background: #F6F6F6;
+    width: 100%;
+}
+
+.infosite .reg {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5D5D5D;
+    background: #F6F6F6;
+    width: 100%;
+}
+
+.sectiontwo {
+    padding: 50px 0 0 210px;
+}
+
+.Oxirgi .text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sectiontwo .list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 70px;
+    margin-left: 130px;
+    margin-right: 100px;
+}
+
+.sectiontwo .list .listItem {
+    display: block;
+    margin-top: 70px;
+    width: 293px;
+}
+
+.sectiontwo .list .listItem:nth-child(2) {
+    background: #FFFFFF;
+    box-shadow: 0px 24px 42px -20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.infobook .link:nth-child(2) {
+    color: #2991F1;
+}
+
+
+
+.infobook {
+    padding-bottom: 70px;
+}
+
+.infobook .books {
+    width: 293px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+
+
+.infobook .title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1E1E1E;
+    padding-bottom: 20px;
+}
+
+.infobook .people {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-bottom: 44px;
+}
+
+
+.infobook .people {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.infobook .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectiontwo .info .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.sectionthree {
+    margin-top: 103px;
+}
+
+.sectionthree .Blog {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1E1E1E;
+    text-align: center;
+}
+
+.sectionthree .blog {
+    margin-top: 50px;
+}
+
+.blog .list .listItem {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sectionthree .leftside {
+    margin-left: 130px;
+    width: 50%;
+}
+
+.leftside .image {
+    width: 500px;
+    height: 483px;
+}
+
+.sectionthree .rightside {
+    margin-left: 80px;
+    width: 70%;
+    height: 100px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+}
+
+.minebook .book {
+    background-color: white;
+    padding: 11px;
+    box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    margin-bottom: 51px;
+}
+
+.sectionthree .info .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 100px;
+    color: #5D5D5D;
+}
+
+.rightside .help {
+    margin-bottom: 20px;
+}
+
+.rightside .coment {
+    margin-bottom: 60px;
+}
+
+.rightside .link {
+    background: rgba(41, 145, 241, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #1E1E1E;
+    display: flex;
+    width: 178px;
+    height: 44px;
+    padding-left: 15px;
+}
+
+.rightside .arrow {
+    background: rgba(75, 162, 244, 0.1);
+    padding-left: 5px;
+}
+
+.comentperson {
+    display: flex;
+    column-gap: 120px;
+    padding: 103px 130px;
+}
+
+.comentperson .leftside {
+    background: #dedede;
+    border-radius: 10px 10px 0px 0px;
+    padding: 53px 103px 53px 81px;
+    width: 50%;
+    width: 480px;
+    height: 534px;
+}
+
+.comentperson .leftside .icon {
+    background-color: #dedede;
+    width: 90px;
+    height: 90px;
+}
+
+.leftside .quote {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 145.02%;
+    color: #1E1E1E;
+    background-color: #dedede;
+}
+
+.leftside .creator {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #5D5D5D;
+    padding-top: 30px;
+    background-color: #dedede;
+}
+
+.comentperson .rightside {
+    width: 50%;
+}
+
+.rightside .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image .zapyat {
+    width: 40px;
+    height: 112px;
+}
+
+.rightside .coment {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 157.02%;
+    color: #5D5D5D;
+}
+
+.rightside .infoperson {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.infoperson .name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157.02%;
+    color: #1E1E1E;
+    padding-left: 20px;
+}
+
+.infoperson .arrow {
+    margin-left: 259.5px;
+    background: #f4efef;
+}
+
+.footer {
+    background: #333333;
+    flex-wrap: wrap;
+    padding: 50px 0 50px 128px;
+    color: #FFFFFF;
+}
+
+.footer .footerlist {
+    display: flex;
+    background-color: #333333;
+}
+
+.footer .footerItem {
+    width: 15%;
+    background-color: #333333;
+}
+
+.footerItem .name {
+    background-color: #333333;
+    padding-bottom: 10px;
+}
+
+.footerItem .Id {
+    background-color: #333333
+}
+
+.footerItem .text {
+    background-color: #333333
+}
+
+
+.footer .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    width: 70%;
+    background-color: #333333;
+}
+
+.div {
+    background: #333333;
+}
+
+.footer .list .listItem {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #333333;
+}
